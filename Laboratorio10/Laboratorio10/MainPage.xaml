@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio10.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" Spacing="25">
+            <Label Text="Laboratorio10" HorizontalOptions="Center" VerticalOptions="Center"  Padding="20" FontSize="18" TextColor="YellowGreen"/>
+            <StackLayout HorizontalOptions="CenterAndExpand" Spacing="50" Padding="25">
+                <Button x:Name="Item1" Text="BindingModelDemo" Padding="15"  CharacterSpacing="3"></Button>
+                <Button x:Name="Item2" Text="ListViewDemo" Padding="15" CharacterSpacing="3"></Button>
+                <Button x:Name="Item3" Text="PickerDemo" Padding="15" CharacterSpacing="3"></Button>
+                <Button x:Name="Item4" Text="ViewToViewDemo" Padding="15"  CharacterSpacing="3"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
